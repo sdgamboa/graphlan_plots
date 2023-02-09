@@ -11,3 +11,5 @@ else
     wget $TREE_URL
 fi
 
+
+graphlan.py --version

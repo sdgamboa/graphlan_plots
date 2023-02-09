@@ -2,10 +2,10 @@
 
 Some plots for bugphyzz with graphlan
 
-Install graphlan with:
+Install graphlan with conda:
 
 ```bash
-pyhon3 -m venv .env
-source .env/bin/activate
-pip install graphlan
+conda create -n graphlan
+conda activate graphlan
+conda install -c bioconda graphlan
 ```
